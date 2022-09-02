@@ -7,7 +7,7 @@ module.exports = defineConfig({
       sass: {
         // 全局sass变量
         //sass-loader 新版本
-        additionalData: `@import "~@/assets/scss/index.scss";`,
+        prependData: `@import "~@/assets/scss/index.scss";`,
       },
     },
   },

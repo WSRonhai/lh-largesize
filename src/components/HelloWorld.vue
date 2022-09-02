@@ -3,13 +3,16 @@
     <div class="titile">test</div>
     <div class="d1">hello world</div>
     <h3>{{ getCount }}</h3>
+    <el-button type="primary">111</el-button>
+    <el-switch v-model="value" active-color="#13ce66" inactive-color="#ff4949">
+    </el-switch>
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {};
+    return { value: true };
   },
   mounted() {},
   computed: {
