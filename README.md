@@ -1,24 +1,16 @@
-# vue_largesize
+# 项目介绍
 
-## Project setup
-```
-npm install
-```
+项目基于 vue2+scss+vuex+elementui 开发的一个大屏项目
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 各组件版本
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- vue2:2.6.14
+- vue-router: 3.6.4,
+- vuex: 3.6.2
 
-### Lints and fixes files
-```
-npm run lint
-```
+### 运行项目
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+npm i
+npm run dev
+```
